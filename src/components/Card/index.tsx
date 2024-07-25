@@ -15,7 +15,7 @@ const Card = ({ name_pt, name_en, stage_id, variant, icon }: ICard) => {
   
     return (
         <Container variant={ variant }>
-            <img src={ `https://alairtonjunior.com/imgs_icon/` + icon } alt="Ícone" />
+            <img src={ `https://alairtonjr.com/imgs_icon/` + icon } alt="Ícone" />
             <h2>{ name_pt }</h2>
             <h3>{ name_en }</h3>
 
